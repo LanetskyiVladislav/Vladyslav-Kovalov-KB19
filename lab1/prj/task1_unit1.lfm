@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 1052
+  Height = 150
+  Top = 373
+  Width = 320
+  BorderStyle = bsSingle
+  Caption = 'Завд. 1'
+  ClientHeight = 130
+  ClientWidth = 320
+  Menu = MainMenu1
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 32
+    Width = 288
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 1
+    Top = 104
+    Width = 1
+    ParentColor = False
+  end
+  object RandomS: TButton
+    Left = 96
+    Height = 25
+    Top = 64
+    Width = 112
+    Caption = 'Випадкова літера'
+    OnClick = RandomSClick
+    TabOrder = 1
+  end
+  object Data: TButton
+    Left = 16
+    Height = 25
+    Top = 64
+    Width = 64
+    Caption = 'Дата'
+    OnClick = DataClick
+    TabOrder = 2
+  end
+  object Check: TButton
+    Left = 224
+    Height = 25
+    Top = 64
+    Width = 80
+    Caption = 'Перевірити'
+    OnClick = CheckClick
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 16
+    Width = 78
+    Caption = 'Введіть слово:'
+    ParentColor = False
+  end
+  object MainMenu1: TMainMenu
+    left = 288
+    top = 112
+    object MenuItem1: TMenuItem
+      Caption = 'Про ПЗ.'
+      OnClick = MenuItem1Click
+    end
+  end
+end

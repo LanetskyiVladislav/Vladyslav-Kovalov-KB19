@@ -1,0 +1,84 @@
+object Form1: TForm1
+  Left = 766
+  Height = 145
+  Top = 378
+  Width = 320
+  BorderStyle = bsSingle
+  Caption = 'Завд. 2'
+  ClientHeight = 125
+  ClientWidth = 320
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object x_input: TEdit
+    Left = 32
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 0
+  end
+  object y_input: TEdit
+    Left = 120
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 1
+  end
+  object z_input: TEdit
+    Left = 208
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 88
+    Height = 25
+    Top = 96
+    Width = 144
+    Caption = 'Результат'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 0
+    Height = 15
+    Top = 8
+    Width = 320
+    Alignment = taCenter
+    AutoSize = False
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 40
+    Width = 9
+    Caption = 'x:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 120
+    Height = 15
+    Top = 40
+    Width = 9
+    Caption = 'y:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 208
+    Height = 15
+    Top = 40
+    Width = 8
+    Caption = 'z:'
+    ParentColor = False
+  end
+  object MainMenu1: TMainMenu
+    top = 88
+    object MenuItem1: TMenuItem
+      Caption = 'Про ПЗ.'
+      OnClick = MenuItem1Click
+    end
+  end
+end
