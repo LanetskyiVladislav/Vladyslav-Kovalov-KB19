@@ -72,7 +72,7 @@ begin
   if lettersin(str) = false then begin Label1.Caption := 'Помилка. Введене некоректне число.'; exit; end;
   z := StrToFloat(str);
 
-  if interval(x,y,z) = false then begin showmessage('Діапазон допустимих чисел обмежений. Кожне з введених чисел має бути від 1 до 707 включно, а також число Х не може бути рівним 5.'); exit; end;
+  if interval(x,y,z) = false then begin showmessage('Діапазон допустимих чисел обмежений. X має бути в діапазоні від 7 до 707, Y має бути від 1 до 707 включно, а Z має бути більшим від 6 до 707.'); exit; end;
 
   a := abs(5-x);
   b := pi*(z+y);

@@ -45,11 +45,11 @@ end;
 
 function Interval  (x,y,z : extended) : boolean;
 begin
-if ((x < 1) or (x > 707)) or (x = 5) then
+if (x < 7) or (x > 707) then
 begin Interval := false; exit; end;
 if (y < 1) or (y > 707) then
 begin Interval := false; exit; end;
-if (z < 1) or (z > 707) then
+if (z < 6) or (z > 707) then
 begin Interval := false; exit; end;
 Interval := true;
 end;
