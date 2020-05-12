@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1589281450 source:c:\users\kovalev\desktop\lab_2\lab_2_kovalev\main.cpp
+	<iostream>
+	"calculation.h"
+	<windows.h>
+
+1589281542 c:\users\kovalev\desktop\lab_2\lab_2_kovalev\calculation.h
+
