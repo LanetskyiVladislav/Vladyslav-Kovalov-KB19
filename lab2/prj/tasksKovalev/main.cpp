@@ -4,13 +4,6 @@
 
 using namespace std;
 
-string name()
-{
-      return "===================\n"
-    + string(" © Kovalev Vlad\n")
-    + string("===================");
-}
-
 void calc(int x, int y, int z)
 {
     cout << "Result Q : " << q_calculation (x,y,z) << endl;
@@ -19,12 +12,6 @@ void calc(int x, int y, int z)
     cout << "x : dec : "<< dec << int (x) << " | oct : " <<  oct << int(x) << endl;
     cout << "y : dec : "<< dec << int (y) << " | oct : " <<  oct << int(y) << endl;
     cout << "z : dec : "<< dec << int (z) << " | oct : " <<  oct << int(z) << endl;
-}
-
-
-string chek (int a, int b)
-{
-     return a<=b -32 ? "True" : "False";
 }
 
 int main()

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1592156082 source:c:\users\kovalev\desktop\lab_2\prj\testdriver\testdriver_kovalev\main.cpp
+	<iostream>
+	"calculation.h"
+	<cmath>
+
+1592137232 c:\users\kovalev\desktop\lab_2\prj\testdriver\testdriver_kovalev\calculation.h
+	<string>
+
