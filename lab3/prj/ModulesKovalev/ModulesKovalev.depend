@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1592255466 source:d:\cpp_works\dgawd\prj\moduleskovalev\main.cpp
+	<iomanip>
+	<iostream>
+	<cmath>
+	<windows.h>
+	<bitset>
+	<string>
+	<sstream>
+

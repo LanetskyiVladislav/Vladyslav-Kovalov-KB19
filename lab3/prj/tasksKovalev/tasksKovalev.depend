@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1592254082 source:d:\cpp_works\dgawd\prj\taskskovalev\main.cpp
+	<iomanip>
+	<iostream>
+	<windows.h>
+	"calculation.h"
+	<cmath>
+	<bitset>
+	<string>
+
+1592255733 d:\cpp_works\dgawd\prj\taskskovalev\calculation.h
+	<string>
+
+1592255777 source:c:\users\kovalev\desktop\lab_3\prj\taskskovalev\main.cpp
+	<iomanip>
+	<iostream>
+	<windows.h>
+	"calculation.h"
+	<cmath>
+	<bitset>
+	<string>
+
+1592255733 c:\users\kovalev\desktop\lab_3\prj\taskskovalev\calculation.h
+	<string>
+
