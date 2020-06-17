@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1592032858 source:c:\vlad-shevchuk-ki19\lab4\prj\testdriver\main.cpp
+	<iostream>
+	"ModulesShevchuck.h"
+	<fstream>
+	<string>
+
+1592024885 c:\vlad-shevchuk-ki19\lab2\modulesshevchuck\modulesshevchuck.h
+	<string>
+	<fstream>
+	<windows.h>
+
+1592191724 source:c:\Нова папка\vladyslav-kovalov-kb19\lab4\prj\testdriver\main.cpp
+	<iostream>
+	"Modules_Kovalov.h"
+	<fstream>
+	<string>
+
+1592191740 c:\Нова папка\vladyslav-kovalov-kb19\lab2\prj\modules_kovalov.h
+	<string>
+	<fstream>
+
+1592193931 source:c:\users\kovalev\desktop\lab4\prj\testdriver\main.cpp
+	<iostream>
+	"calculation.h"
+	<fstream>
+	<string>
+
+1592193556 c:\users\kovalev\desktop\lab2\prj\taskskovalev\calculation.h
+	<string>
+	<fstream>
+
