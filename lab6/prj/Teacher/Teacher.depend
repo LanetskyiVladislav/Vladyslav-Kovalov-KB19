@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1591217539 source:c:\users\Антон\anton-moroz-kb19\lab6\prj\teacher\main.cpp
+	<iostream>
+	<windows.h>
+	"ModulesMoroz.h"
+	<fstream>
+	<string>
+
+1591216514 c:\users\Антон\anton-moroz-kb19\lab2\prj\modulesmoroz.h
+	<string>
+	<fstream>
+
+1591897855 source:d:\vlad-shevchuk-ki19\lab6\prj\teacher\main.cpp
+	<iostream>
+	<windows.h>
+	"ModulesShevchuck.h"
+	<fstream>
+	<string>
+
+1591898993 d:\vlad-shevchuk-ki19\lab2\modulesshevchuck\modulesshevchuck.h
+	<string>
+	<fstream>
+
+1591901263 source:c:\users\kovalev\desktop\lab6\prj\teacher\main.cpp
+	<iostream>
+	<windows.h>
+	"ModulesKovalov.h"
+	<fstream>
+	<string>
+
+1591901298 c:\users\kovalev\desktop\lab6\prj\teacher\moduleskovalov.h
+	<string>
+	<fstream>
+
